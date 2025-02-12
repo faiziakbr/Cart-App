@@ -1,6 +1,9 @@
-# iOS Products App
+# iOS Cart App
 
 An iOS application that fetches and displays products from [DummyJSON API](https://dummyjson.com/) using `UITableView` with pagination. The app follows MVVM architecture with Clean Architecture principles and uses `Combine` for API handling. Users can search for products by title, refresh the list with swipe-to-refresh, and view product details in a SwiftUI-based detail screen.
+
+## Video Link
+https://drive.google.com/file/d/19_JcUGkitVAcTtt7X_QhVZpPSz3RODHH/view?usp=sharing
 
 ## Features
 
@@ -20,7 +23,7 @@ An iOS application that fetches and displays products from [DummyJSON API](https
 
 ## API Used
 
-- **Base URL**: `https://dummyjson.com/products`
+- **Base URL**: `https://dummyjson.com`
 - **Endpoints**:
   - Get products: `GET /products?limit={limit}&skip={skip}`
 
@@ -29,7 +32,7 @@ An iOS application that fetches and displays products from [DummyJSON API](https
 1. Clone the repository:
    ```sh
    git clone https://github.com/faiziakbr/Cart-App
-   cd ProductsApp
+   cd CartApp
    ```
 2. Open `CartApp.xcodeproj` in Xcode.
 3. Build and run the app on a simulator or device.
